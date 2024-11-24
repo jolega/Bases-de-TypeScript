@@ -27,6 +27,16 @@ const audioPlayer: AudioPlayer = {
 const { song: anotherSong , songDuration: duration, details } = audioPlayer
 const { author  } = details
 
+const dbz: string[] = ['Goku','Vegeta','Trunks']
+const trunk = dbz[4]  || 'not characters'
+
+console.log('characters 3:',trunk  )
+
+
+const [ ,p2, p3, turnks2 = 'not characters'] : string[] = ['Goku','Vegeta','Trunks']
+
+console.log('characters 3:',turnks2  )
+
 console.log('Song:',anotherSong);
 console.log('duration:',duration);
 console.log('author:',author);
